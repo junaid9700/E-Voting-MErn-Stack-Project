@@ -40,7 +40,7 @@ const Index = ({ collapsed, toggled, handleToggleSidebar, handleCollapsedChange,
           color: theme.palette.primary.contrastText,
         }}
       >
-        <Typography variant="h6" sx={{ fontWeight: 'bold',cursor: 'pointer' }}  onClick={handleCollapsedChange}> {!isAdmin ? 'EV': 'Admin pannel'}</Typography>
+        <Typography variant="h6" sx={{ fontWeight: 'bold',cursor: 'pointer' }}  onClick={handleCollapsedChange}> {!isAdmin ? 'Viso E-Booth System': 'Admin pannel'}</Typography>
       </Box>
 
       <Menu
